@@ -15,9 +15,9 @@
     border-color: azure;
     border-style: solid;
     border-width: 0px 0px 1px 0px;
-    box-shadow: 0px 0px 1px 0px;
+    box-shadow: 0px 1px 19px 6px;
 
-   
+   background-color: black;
    
 }
 
@@ -27,14 +27,20 @@
 
 .techpaathshaala-logo1{
     display: inline-block;
-    padding-top: 22px;
-    padding-left: 100px;
+    padding-top: 28px;
+    padding-left: 50px;
+    
+}
+
+.techpaathshaala-logo1 img{
+    width: 150px;
 }
 
 .head-line1{
    
-    display: inline-block;
+   
     float: right;
+    color: white;
     padding-top: 25px;
     padding-right: 100px;
 }
@@ -171,6 +177,35 @@ height: 42px;
     color: white ;
 }
 
+.why-us-section{
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.why-us-heading{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.why-us-para1{
+    font-size: 18px;
+    width: 70%;
+    color: #576575;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.why-us-2nd-section{
+    display: flex;
+}
+
+.opt1{
+
+}
+
 @media only screen and (max-width:  600px) {
 
     *{
@@ -219,7 +254,7 @@ height: 42px;
     }
 
     .para1{
-        100vw
+        
         line-height: 20px;
     }
 
@@ -235,6 +270,8 @@ height: 42px;
 
     .section-2{
         width: 100%;
+        
+       
     }
 
     .section-2-container{
@@ -242,6 +279,7 @@ height: 42px;
         flex-direction: column;
         width: 100%;
         padding-left: 10px;
+        
     }
 
     .mobile-responsive1{
